@@ -1,0 +1,151 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero, .header {
+    background-color: #1F2937;
+    padding: 0 100px 0 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+
+.header p {
+    font-size: 24px;
+    color: #F9F8FA;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9F8FA;
+}
+
+.hero-text p, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 5px;
+    width: 75px;
+    height: 20px; 
+    text-align: center;
+}
+
+.hero-image {
+    height: 300px;
+    width: 40%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.pictures {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.picture {
+    border-color: #3882F6;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    padding: 5px;
+    width: 100px;
+    height: 100px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picture-text {
+    text-align: center;
+    width: 100px;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 50px 0;
+}
+
+.quote-author {
+    align-self: flex-end;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 50px 0;
+}
